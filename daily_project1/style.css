@@ -1,0 +1,45 @@
+/* Global Style */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container{
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main-container .action-buttons{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+}
+
+#button-solver, #clean-button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 5px;
+}
+.result{
+    margin-top: 20px;
+}
